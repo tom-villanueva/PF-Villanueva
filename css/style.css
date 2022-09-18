@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*----------------------------*/
+/*      Color Pallete
+/*----------------------------*/
+
+.bg-darkBlue {
+    background-color: rgba(28, 43, 63, 1);
+}
+
+.bg-mediumBlue {
+    background-color: rgba(47, 97, 140, 1);
+}
+
+.bg-softBlue {
+    background-color: rgba(101, 149, 191, 1); 
+}
+
+.bg-lightBlue {
+    background-color: rgba(149, 185, 216, 1);
+}
+
+.bg-greenBall {
+    background-color: rgba(198, 216, 60, 1);
+}
+
+/*----------------------------*/
+/*      Navbar Styles
+/*----------------------------*/
+
+#navigationBar ul li a {
+    color: rgba(198, 216, 60, 1);
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+    #navigationBar ul li:hover a {
+        font-weight: 600;
+    }
+
+    #navigationBar .li-button {
+        background-color: rgba(149, 185, 216, 0.6);
+        border-radius: 15px;
+        padding: 5px 20px;
+    }
