@@ -10,6 +10,10 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*----------------------------*/
 /*      Color Pallete
 /*----------------------------*/
@@ -34,6 +38,10 @@ html {
     background-color: rgba(198, 216, 60, 1);
 }
 
+.color-greenBall {
+    color: rgba(198, 216, 60, 1);
+}
+
 /*----------------------------*/
 /*      Navbar Styles
 /*----------------------------*/
@@ -52,4 +60,27 @@ html {
         background-color: rgba(149, 185, 216, 0.6);
         border-radius: 15px;
         padding: 5px 20px;
+    }
+
+/*----------------------------*/
+/*      Footer Styles
+/*----------------------------*/
+
+#footer {
+    border-top: 1px solid rgba(198, 216, 60, 1);
+    padding-top: 20px;
+}
+
+    #footer .footer-icon {
+        height: 35px;
+        padding-left: 5px;
+    }
+
+    #footer .dev-animation:hover {
+        transform: scale(1.2, 1.2);
+        transition: transform 0.5s;
+        background: linear-gradient(to top, rgba(28,43,63,1) 0%, rgba(101,149,191,1) 9%, rgba(198,216,60,1) 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
