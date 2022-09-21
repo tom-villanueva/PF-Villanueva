@@ -12,11 +12,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body class="bg-darkBlue">
     <!-- Navbar starts -->
-    <header>
-        <nav class="navbar navbar-expand-md" id="navigationBar">
-            <div class="container-fluid">
+    <header id="header" class="sticky-top">
+        <nav class="navbar navbar-expand-md sticky-top bg-lightBlue" id="navigationBar">
+            <div class="container-fluid p-0">
                 <a class="navbar-brand" href="./index.html">
                     <img src="assets/img/icons/logo.png" alt="Pádel Club! logo">
                 </a>
@@ -52,7 +53,56 @@
             </div>
         </nav>
     </header>
-    <!-- Navbar ends  -->
+    <!-- navbar ends  -->
+
+    <!-- main starts -->
+    <main class="container-fluid p-0">
+        <section id="section-main" class="row mx-0">
+            <!-- hero image starts -->
+            <div id="figure-col" class="col-md-8 p-0">
+                <figure class="section-main__figure">
+                    <div class="section-main__header text-center">
+                        <figcaption class="animate__animated animate__fadeInUp">
+                            <h1 class="color-greenBall">
+                                Entrená.
+                                <span class="d-block">Jugá.</span>
+                                <span class="d-block">Ganá.</span>
+                            </h1>
+                        </figcaption>
+                        <a href="pages/contact.html">
+                            <button class="btn">
+                                Reservar horario
+                            </button>
+                        </a>
+                    </div>
+                </figure>
+            </div>
+            <!-- hero image ends -->
+
+            <!-- btns starts -->
+            <div id="btns-col" class="col-md-4 d-flex flex-sm-row flex-md-column p-0">
+                <!-- first button starts -->
+                <div class="index-main__btn index-main__btn--borderResponsive">
+                    <a href="pages/contact.html">
+                        <h2 class="color-greenBall fs-1">
+                            ¡Hacé tu reserva!
+                        </h2>
+                    </a>
+                </div>
+
+                <!-- second button starts -->
+                <div class="index-main__btn .index-main__btn--borderResponsive">
+                    <a href="pages/services.html">
+                        <h2 class="color-greenBall fs-1">
+                            Lo que ofrecemos
+                        </h2>
+                    </a>
+                </div>
+            </div>
+            <!-- btns ends -->
+        </section>
+    </main>
+    <!-- main ends -->
 
     <!-- footer starts -->
     <footer class="container-fluid" id="footer">
@@ -62,14 +112,15 @@
                 <h4 class="color-greenBall fs-3">
                     Proyecto hecho por
                 </h4>
-                <a class="d-block text-white fs-5 mb-1 dev-animation" href="https://github.com/tom-villanueva" target="_blank">
+                <a class="d-block text-white fs-5 mb-1 dev-animation" href="https://github.com/tom-villanueva"
+                    target="_blank">
                     Tomás Villanueva Jousset
                 </a>
                 <a class="d-block text-white-50" href="https://www.freepik.com/photos/padel-tennis" target="_blank">
                     Imágenes gracias a freepik
                 </a>
             </div>
-            
+
             <!-- copyright starts -->
             <div class="col-sm-12 col-md-4 text-center">
                 <h4 class="color-greenBall fs-3">
@@ -78,7 +129,7 @@
                 <p class="text-white fs-5 mb-1">Política de privacidad</p>
                 <p class="text-white fs-5">Cookies</p>
             </div>
-            
+
             <!-- social media starts -->
             <div class="col-sm-12 col-md-4 text-center">
                 <a href="https://www.facebook.com" target="_blank">
