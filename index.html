@@ -17,7 +17,7 @@
     <!-- Navbar starts -->
     <header id="header" class="sticky-top">
         <nav class="navbar navbar-expand-md sticky-top bg-lightBlue" id="navigationBar">
-            <div class="container-fluid p-0">
+            <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html">
                     <img src="assets/img/icons/logo.png" alt="Pádel Club! logo">
                 </a>
@@ -56,50 +56,90 @@
     <!-- navbar ends  -->
 
     <!-- main starts -->
-    <main class="container-fluid p-0">
-        <section id="section-main" class="row mx-0">
-            <!-- hero image starts -->
-            <div id="figure-col" class="col-md-8 p-0">
-                <figure class="section-main__figure">
-                    <div class="section-main__header text-center">
-                        <figcaption class="animate__animated animate__fadeInUp">
-                            <h1 class="color-greenBall">
-                                Entrená.
-                                <span class="d-block">Jugá.</span>
-                                <span class="d-block">Ganá.</span>
-                            </h1>
-                        </figcaption>
+    <main>
+        <section class="container-fluid">
+            <div id="hero" class="row mx-0">
+                <!-- hero image starts -->
+                <div id="figure-col" class="col-md-8 p-0">
+                    <figure class="hero__figure">
+                        <div class="hero__header text-center">
+                            <figcaption class="animate__animated animate__fadeInUp">
+                                <h1 class="color-greenBall">
+                                    Entrená.
+                                    <span class="d-block">Jugá.</span>
+                                    <span class="d-block">Ganá.</span>
+                                </h1>
+                            </figcaption>
+                            <a href="pages/contact.html">
+                                <button class="btn-header animate__animated animate__fadeInUp">
+                                    Reservar horario
+                                </button>
+                            </a>
+                        </div>
+                    </figure>
+                </div>
+                <!-- hero image ends -->
+    
+                <!-- btns starts -->
+                <div id="btns-col" class="col-md-4 d-flex flex-sm-row flex-md-column p-0">
+                    <!-- first button starts -->
+                    <button class="hero__btn">
                         <a href="pages/contact.html">
-                            <button class="btn">
-                                Reservar horario
-                            </button>
+                            <h2 class="color-greenBall fs-1">
+                                ¡Hacé tu reserva!
+                            </h2>
                         </a>
-                    </div>
-                </figure>
+                    </button>
+    
+                    <!-- second button starts -->
+                    <button class="hero__btn">
+                        <a href="pages/services.html">
+                            <h2 class="color-greenBall fs-1">
+                                Lo que ofrecemos
+                            </h2>
+                        </a>
+                    </button>
+                </div>
+                <!-- btns ends -->
             </div>
-            <!-- hero image ends -->
+        </section>
 
-            <!-- btns starts -->
-            <div id="btns-col" class="col-md-4 d-flex flex-sm-row flex-md-column p-0">
-                <!-- first button starts -->
-                <div class="index-main__btn index-main__btn--borderResponsive">
-                    <a href="pages/contact.html">
-                        <h2 class="color-greenBall fs-1">
-                            ¡Hacé tu reserva!
-                        </h2>
+        <section id="services" class="container">
+            <div  class="row g-5 h-100 mx-0">
+                <!-- padel classes starts -->
+                <div class="col-md-4">
+                    <a href="pages/services.html" class="section-services__card">
+                        <img src="assets/img/index/index-image-clases.webp" alt="Clases de pádel" class="w-100 img-thumbnail">
+                        <div class="section-services__cardText">
+                            <h3 class="m-0">Clases de pádel</h3>
+                            <p>Ofrecemos clases con profesores capacitados <strong>internacionalmente</strong>.</p>
+                        </div>
                     </a>
                 </div>
-
-                <!-- second button starts -->
-                <div class="index-main__btn .index-main__btn--borderResponsive">
-                    <a href="pages/services.html">
-                        <h2 class="color-greenBall fs-1">
-                            Lo que ofrecemos
-                        </h2>
+    
+                <!-- padel turno starts -->
+                <div class="col-md-4">
+                    <a href="pages/contact.html" class="section-services__card">
+                        <img src="assets/img/index/index-image-turnos.webp" alt="Turno de pádel" class="w-100 img-thumbnail">
+                        <div class="section-services__cardText">
+                            <h3 class="m-0">Turnos libres</h3>
+                            <p>Vení a jugar desde las 8 AM hasta las 00 PM <strong>todos</strong> los días.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+    
+                <!-- padel tournament starts -->
+                <div class="col-md-4">
+                    <a href="pages/services.html" class="section-services__card">
+                        <img src="assets/img/index/index-image-torneos.webp" alt="Torneo de pádel" class="w-100 img-thumbnail">
+                        <div class="section-services__cardText">
+                            <h3 class="m-0">Torneos</h3>
+                            <p>Organizamos torneos rankeados fin de semana de por medio.</p>
+                        </div>
                     </a>
                 </div>
             </div>
-            <!-- btns ends -->
         </section>
     </main>
     <!-- main ends -->
