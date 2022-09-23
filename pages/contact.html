@@ -12,8 +12,8 @@
 </head>
 <body class="bg-darkBlue">
     <!-- Navbar starts -->
-    <header>
-        <nav class="navbar navbar-expand-md" id="navigationBar">
+    <header id="header" class="sticky-top">
+        <nav class="navbar navbar-expand-md sticky-top bg-lightBlue" id="navigationBar">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html">
                     <img src="../assets/img/icons/logo.png" alt="Pádel Club! logo">
@@ -51,6 +51,222 @@
         </nav>
     </header>
     <!-- Navbar ends  -->
+
+    <main>
+        <section class="container my-5">
+            <h1>¡Hacé tu reserva!</h1>
+
+            <form>
+                <div class="row">
+                    <div class="col-md-3">
+                        <label for="horario" class="form-label color-greenBall">Horario</label>
+                        <input id="horario" type="text" class="form-control">
+                    </div>
+                    <div class="col-md-3">
+                        <label for="nombre" class="form-label color-greenBall">Nombre</label>
+                        <input id="nombre" type="text" class="form-control">
+                    </div>
+                    <div class="col-md-3">
+                        <label for="telefono" class="form-label color-greenBall">Telefono</label>
+                        <input id="telefono" type="text" class="form-control">
+                    </div>
+                    <div class="col-md-3">
+                        <label for="email" class="form-label color-greenBall">Email</label>
+                        <input id="email" type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="row my-3">
+                    <div class="col-md-12">
+                        <button class="btn-service w-100">
+                            Enviar
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <section class="container">
+            <!-- table starts -->
+            <article class="table-responsive">
+                <table class="table table-bordered table__td--borderGreenBall text-white">
+                    <thead class="table-mediumBlue">
+                        <tr>
+                            <th>Horarios</th>
+                            <th>Domingo</th>
+                            <th>Lunes</th>
+                            <th>Martes</th>
+                            <th>Miércoles</th>
+                            <th>Jueves</th>
+                            <th>Viernes</th>
+                            <th>Sábado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="table__td--bgMediumBlue">08:00</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                        </tr>
+                        <tr>
+                            <td class="table__td--bgMediumBlue">09:00</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                        </tr>
+                        <tr>
+                            <td class="table__td--bgMediumBlue">10:00</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                        </tr>
+                        <tr>
+                            <td class="table__td--bgMediumBlue">11:00</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                        </tr>
+                        <tr>
+                            <td class="table__td--bgMediumBlue">12:00</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                        </tr>
+                        <tr>
+                            <td class="table__td--bgMediumBlue">13:00</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                        </tr>
+                        <tr>
+                            <td class="table__td--bgMediumBlue">14:00</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                        </tr>
+                        <tr>
+                            <td class="table__td--bgMediumBlue">15:00</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                        </tr>
+                        <tr>
+                            <td class="table__td--bgMediumBlue">16:00</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                        </tr>
+                        <tr>
+                            <td class="table__td--bgMediumBlue">17:00</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                        </tr>
+                        <tr>
+                            <td class="table__td--bgMediumBlue">18:00</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                        </tr>
+                        <tr>
+                            <td class="table__td--bgMediumBlue">19:00</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                        </tr>
+                        <tr>
+                            <td class="table__td--bgMediumBlue">20:00</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                        </tr>
+                        <tr>
+                            <td class="table__td--bgMediumBlue">21:00</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                        </tr>
+                        <tr>
+                            <td class="table__td--bgMediumBlue">22:00</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                        </tr>
+                        <tr>
+                            <td class="table__td--bgMediumBlue">23:00</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                            <td>LIBRE</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
+    </main>
+
     <!-- footer starts -->
     <footer class="container-fluid" id="footer">
         <div class="row d-flex align-items-center">
