@@ -6,7 +6,6 @@
 }
 
 html {
-    /* font-size: 62.5%; */
     font-family: 'Poppins', sans-serif;
 }
 
@@ -81,11 +80,11 @@ h1,h2,h3{
     padding-top: 20px;
 }
 
-    #footer .footer-icon {
+    .footer__icon {
         height: 35px;
     }
 
-    #footer .dev-animation:hover {
+    .dev__animation:hover {
         transform: scale(1.2, 1.2);
         transition: transform 0.5s;
         background: linear-gradient(to top, rgba(28,43,63,1) 0%, rgba(101,149,191,1) 9%, rgba(198,216,60,1) 100%);
@@ -103,15 +102,15 @@ h1,h2,h3{
     height: 85vh;
 }
 
-    #figure-col {
+    #figure__col {
         height: 70%;
     }
 
-    #btns-col {
+    #btns__col {
         height: 30%;
     }
 
-    #hero .hero__figure {
+    .hero__figure {
         height: 100%;
         background-color: rgb(0, 0, 0);
         background-image: 
@@ -126,7 +125,7 @@ h1,h2,h3{
             2px 2px rgba(198, 216, 60, 0.5);
     }
 
-    #hero .hero__header {
+    .hero__header {
         padding: 30px;
         background-color: rgb(0,0,0);
         background-color: rgba(0,0,0, 0.4);
@@ -138,7 +137,7 @@ h1,h2,h3{
         z-index: 2;
     }
 
-    #hero .hero__header figcaption h1 {
+    .hero__header figcaption h1 {
         font-size: 4rem;
     }
 
@@ -160,7 +159,7 @@ h1,h2,h3{
             transition: all 1s;
         }
 
-        #btns-col .hero__btn {
+        .hero__btn {
             height: 100%;
             width: 100%; 
             background: transparent;
@@ -170,11 +169,11 @@ h1,h2,h3{
             border:none;
         }
 
-        #btns-col .hero__btn:hover {
+        .hero__btn:hover {
             background: rgba(198, 216, 60, 0.85);
         }
 
-        #btns-col .hero__btn:hover h2{
+        .hero__btn:hover h2{
             color: rgba(28, 43, 63, 1);
         }
 
@@ -196,7 +195,7 @@ h1,h2,h3{
         border-top-right-radius: 10px;
     }
 
-        .section-services__card .section-services__cardText{
+        .section-services__cardText{
             width: 100%;
             text-align: center; 
             position: absolute;
@@ -205,14 +204,14 @@ h1,h2,h3{
             transform: translate(-50%, -10%);
         }
 
-        .section-services__card .section-services__cardText h3 {
+        .section-services__cardText h3 {
             background-color: rgba(47, 97, 140, 0.9);
             font-size: 1.5rem;
             padding: 5px;
             text-transform: uppercase;
         }
 
-        .section-services__card .section-services__cardText p {
+        .section-services__cardText p {
             color: rgba(255,255,255,1);
             padding: 5px;
             background-color: rgba(149, 185, 216, 0.9);
@@ -224,15 +223,15 @@ h1,h2,h3{
 
         /* Responsive sizing  */
         @media (min-width:768px) {
-            #figure-col {
+            #figure__col {
                 height: 100%;
             }
 
-            #btns-col {
+            #btns__col {
                 height:100%;
             }
 
-            #hero .index-main__btn {
+            .index-main__btn {
                 height: 50%;
             }
 
@@ -247,7 +246,7 @@ h1,h2,h3{
 /*      About us Styles
 /*----------------------------*/
 
-#about-us-hero img {
+#aboutUs__hero img {
     height: 50vh;
     filter: gray;
     -webkit-filter: grayscale(1);
@@ -255,7 +254,7 @@ h1,h2,h3{
     opacity: 0.7;
 }
 
-.about-us-paragraph {
+.aboutUs__paragraph {
     width: 80%;
     color: rgba(245,245,245,1);
     text-align: justify; 
@@ -263,17 +262,17 @@ h1,h2,h3{
     font-size: 1.1rem;
 }
 
-.about-us-paragraph h1,h2,h3 {
+.aboutUs__paragraph h1,h2,h3 {
     text-align: center;
     text-transform: uppercase;
 }
 
-.about-us-employee img {
+.aboutUs__employee img {
     filter: grayscale(0.5);
     border-radius: 50%;
 }
 
-.about-us-employee img:hover {
+.aboutUs__employee img:hover {
     filter: grayscale(0);
 }
 
@@ -281,17 +280,17 @@ h1,h2,h3{
 /*      Services Styles
 /*----------------------------*/
 
-.services-card {
+.services__card {
     border-radius: 10px;
     border: 3px solid rgba(198, 216, 60, 1);
 }
 
-.services-text p{
+.services__text p{
     font-size: 1.1rem;
     color: rgba(245,245,245,1);
 }
 
-.btn-service {
+.btn__service {
     color: rgba(245,245,245,1);
     background-color: rgba(47, 97, 140, 1);
     text-transform: capitalize;
@@ -305,17 +304,17 @@ h1,h2,h3{
 /*      News Styles
 /*----------------------------*/
 
-.news-figure img {
+.news__figure img {
     height: 365px;
     object-fit: cover;
     opacity: 0.8;
 }
 
-.p-size {
+.p--size {
     font-size: 1.3rem;
 }
 
-.text-background {
+.text__background {
     width: 90%;
     padding: 20px;
     background-color: rgb(0,0,0);
@@ -344,7 +343,7 @@ h1,h2,h3{
 /*      Contact Styles
 /*----------------------------*/
 
-.table-mediumBlue {
+.table--mediumBlue {
     font-size: 1.3rem;
     background-color: rgba(47, 97, 140, 0.6);
     color: rgba(198, 216, 60, 1);  
