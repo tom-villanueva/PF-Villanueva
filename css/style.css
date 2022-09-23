@@ -144,7 +144,7 @@ h1,h2,h3{
 
         .btn-header {
             color: rgba(245,245,245,1);
-            background-color: rgba(149, 185, 216, 1);
+            background-color: rgba(47, 97, 140, 1);
             text-transform: uppercase;
             font-size: 2rem;
             border: 0px;
@@ -163,7 +163,7 @@ h1,h2,h3{
         #btns-col .hero__btn {
             height: 100%;
             width: 100%; 
-            background-color: transparent;
+            background: transparent;
             box-shadow: 
                 inset 2px 2px rgba(198, 216, 60, 0.5),
                 2px 2px rgba(198, 216, 60, 0.5);
@@ -171,7 +171,11 @@ h1,h2,h3{
         }
 
         #btns-col .hero__btn:hover {
-            background: linear-gradient(0deg, rgba(28, 43, 63, 1)0%, rgba(101, 149, 191, 1) 100%);
+            background: rgba(198, 216, 60, 0.85);
+        }
+
+        #btns-col .hero__btn:hover h2{
+            color: rgba(28, 43, 63, 1);
         }
 
     #services {
@@ -271,4 +275,28 @@ h1,h2,h3{
 
 .about-us-employee img:hover {
     filter: grayscale(0);
+}
+
+/*----------------------------*/
+/*      Services Styles
+/*----------------------------*/
+
+.services-card {
+    border-radius: 10px;
+    border: 3px solid rgba(198, 216, 60, 1);
+}
+
+.services-text p{
+    font-size: 1.5rem;
+    color: rgba(245,245,245,1);
+}
+
+.btn-service {
+    color: rgba(245,245,245,1);
+    background-color: rgba(47, 97, 140, 1);
+    text-transform: capitalize;
+    font-size: 1.7rem;
+    border: 0px;
+    border-radius: 15px;
+    padding: 5px 10px;
 }
