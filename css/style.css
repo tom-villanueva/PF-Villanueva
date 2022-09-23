@@ -300,3 +300,42 @@ h1,h2,h3{
     border-radius: 15px;
     padding: 5px 10px;
 }
+
+/*----------------------------*/
+/*      News Styles
+/*----------------------------*/
+
+.news-figure img {
+    height: 365px;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.p-size {
+    font-size: 1.7rem;
+}
+
+.text-background {
+    width: 90%;
+    padding: 20px;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+}
+
+/* override of pagination bs class */
+.pagination {
+    --bs-pagination-color: rgba(198, 216, 60, 0.85);
+    --bs-pagination-bg: rgba(47, 97, 140, 1);
+    --bs-pagination-border-color: rgba(198, 216, 60, 0.85);
+    /* hover styles */
+    --bs-pagination-hover-color: rgba(47, 97, 140, 1);
+    --bs-pagination-hover-bg: rgba(198, 216, 60, 0.85);
+    --bs-pagination-hover-border-color: rgba(198, 216, 60, 1);
+    /* focus styles */
+    --bs-pagination-focus-color: rgba(198, 216, 60, 0.85);
+    --bs-pagination-focus-bg: rgba(47, 97, 140, 1);
+    /* active styles */
+    --bs-pagination-active-color: rgba(47, 97, 140, 1);
+    --bs-pagination-active-bg: rgba(198, 216, 60, 0.85);
+    --bs-pagination-active-border-color: rgba(198, 216, 60, 1);
+}
