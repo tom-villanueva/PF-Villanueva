@@ -242,6 +242,12 @@ h1,h2,h3{
             }
         }
 
+        @media (max-width: 576px) {
+            .hero__header figcaption h1 {
+                font-size: 2rem;
+            }
+        }
+
 /*----------------------------*/
 /*      About us Styles
 /*----------------------------*/
