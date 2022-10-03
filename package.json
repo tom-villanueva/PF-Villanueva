@@ -1,0 +1,25 @@
+{
+  "name": "proyecto-final",
+  "version": "1.0.0",
+  "description": "Proyecto final para Desarrollo Web de CoderHouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch scss/main.scss  css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tom-villanueva/coder-dw-entrega2-villanueva.git"
+  },
+  "author": "Tomás Villanueva Jousset",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tom-villanueva/coder-dw-entrega2-villanueva/issues"
+  },
+  "homepage": "https://github.com/tom-villanueva/coder-dw-entrega2-villanueva#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "sass": "^1.55.0"
+  }
+}
