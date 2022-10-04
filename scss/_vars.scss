@@ -1,0 +1,71 @@
+// Main Font
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+$mainFont: 'Poppins', sans-serif;
+
+// Color Palette
+$palette:(
+    'main': rgba(28, 43, 63, 1),
+    'primary': rgba(198, 216, 60, 0.85),
+    'secondary': rgba(47, 97, 140, 1),
+    'shadowDark': rgba(0,0,0,1),
+    'shadowLight': rgba(0,0,0,0.4),
+    'white': rgba(245,245,245,1),
+);
+
+.bg-main {
+    background-color: rgba(28, 43, 63, 1);
+}
+
+.bg-primaryMine {
+    background-color: rgba(198, 216, 60, 0.85);
+}
+
+.bg-secondaryMine {
+    background-color: rgba(47, 97, 140, 1);
+}
+
+// Font Sizing
+$font-sizes:(
+    'xs': 1rem,
+    'sm': 1.2rem,
+    'md': 1.5rem,
+    'lg': 2rem,
+    'xl': 4rem,
+);
+
+// Font weights
+$font-weights:(
+    'sm': 400,
+    'md': 600,
+);
+
+// Responsive Sizing (.w-md-50, .h-md-75, etc)
+$size-values: (
+    25: 25%,
+    30: 30%,
+    50: 50%,
+    70: 70%,
+    75: 75%,
+    100: 100%,
+);
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+    @include media-breakpoint-up($breakpoint) {
+        $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+        @each $prop, $abbrev in (width: w, height: h) {
+            @each $size, $length in $size-values {
+                .#{$abbrev}#{$infix}-#{$size} {
+                    #{$prop}: $length !important;
+                }
+            }
+        }
+    }
+}
+
+// Shadow Background for text
+@mixin shadowText ($padding) {
+    padding: $padding;
+    background-color: map-get($map: $palette, $key: 'shadowDark');
+    background-color: map-get($map: $palette, $key: 'shadowLight');
+}
