@@ -19,9 +19,7 @@
             background-size: cover;
             border-radius: 5px;
             position: relative;
-            box-shadow: 
-                inset 2px 2px map-get($map: $palette, $key: 'secondary'),
-                2px 2px map-get($map: $palette, $key: 'secondary');
+            box-shadow: $boxShadowSecondary;
             
             .hero__header {
                 @include shadowText(30px);
@@ -64,9 +62,7 @@
             height: 100%;
             width: 100%; 
             background: transparent;
-            box-shadow: 
-                inset 2px 2px map-get($map: $palette, $key: 'secondary'),
-                2px 2px map-get($map: $palette, $key: 'secondary');
+            box-shadow: $boxShadowSecondary;
             border:none;
             border-radius: 5px;
 
@@ -91,12 +87,23 @@
         overflow: hidden;
         background-color: map-get($map: $palette, $key: 'shadowDark');
         
+        &:hover img,
+        &:hover h3,
+        &:hover p {
+            transform: skew(5deg, 0deg) translateY(-10px);
+            transition: transform 1s;
+            box-shadow: -10px 10px map-get($map: $palette, $key: 'shadowLight'), 
+                        -10px 10px map-get($map: $palette, $key: 'shadowLight');
+        }
+
         img {
             height: 100%;
             opacity: 0.8;
             object-fit: cover;
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
+
+            
         }
 
         .section-services__cardText{

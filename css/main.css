@@ -11148,6 +11148,11 @@ a {
   overflow: hidden;
   background-color: rgb(0, 0, 0);
 }
+#services .section-services__card:hover img, #services .section-services__card:hover h3, #services .section-services__card:hover .h3, #services .section-services__card:hover p {
+  transform: skew(5deg, 0deg) translateY(-10px);
+  transition: transform 1s;
+  box-shadow: -10px 10px rgba(0, 0, 0, 0.4), -10px 10px rgba(0, 0, 0, 0.4);
+}
 #services .section-services__card img {
   height: 100%;
   opacity: 0.8;

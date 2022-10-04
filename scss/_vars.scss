@@ -2,7 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 $mainFont: 'Poppins', sans-serif;
 
+
+
 // Color Palette
+
 $palette:(
     'main': rgba(28, 43, 63, 1),
     'primary': rgba(198, 216, 60, 0.85),
@@ -23,6 +26,9 @@ $palette:(
 .bg-secondaryMine {
     background-color: rgba(47, 97, 140, 1);
 }
+
+$boxShadowSecondary: inset 2px 2px map-get($map: $palette, $key: 'secondary'),
+                     2px 2px map-get($map: $palette, $key: 'secondary');
 
 // Font Sizing
 $font-sizes:(
