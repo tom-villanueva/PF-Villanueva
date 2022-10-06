@@ -15,17 +15,6 @@
     }
 }
 
-.li-button {
-    border-top: 0.5px solid map-get($map: $palette, $key: 'primary');
-    border-bottom: 0.5px solid map-get($map: $palette, $key: 'primary');
-    border-radius: 15px;
-    padding: 5px 20px;
-    &:hover {
-        color: map-get($map: $palette, $key: 'main')!important;
-        background-color: map-get($map: $palette, $key: 'primary');
-    }
-}
-
 // Footer Styles
 #footer {
     border-top: 1px solid map-get($map: $palette, $key: 'primary');

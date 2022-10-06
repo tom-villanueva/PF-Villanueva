@@ -1,8 +1,12 @@
 // imports
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "_vars";
-@import "_globals";
+@import "_commons";
 @import "_layout";
 
 // Pages styles imports
 @import "./pages_styles/_index";
+@import "./pages_styles/services";
+@import "./pages_styles/contact";
+@import "./pages_styles/news";
+@import "./pages_styles/about_us";

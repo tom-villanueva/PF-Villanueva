@@ -1,0 +1,50 @@
+// Global tag selectores for whole website.
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: map-get($map: $palette, $key: 'main');
+}
+
+h1,h2,h3,h4 {
+    color: map-get($map: $palette, $key: 'primary');
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg-main {
+    background-color: rgba(28, 43, 63, 1);
+}
+
+.bg-primaryMine {
+    background-color: rgba(198, 216, 60, 0.85);
+}
+
+.bg-secondaryMine {
+    background-color: rgba(47, 97, 140, 1);
+}
+
+.clickMe-btn {
+    color: map-get($map: $palette, $key: 'primary');
+    background-color: transparent;
+    border-top: 0.5px solid map-get($map: $palette, $key: 'secondary');
+    border-bottom: 0.5px solid map-get($map: $palette, $key: 'secondary');
+    box-shadow: 5px 5px map-get($map: $palette, $key: 'shadowLight');
+    border-left: none;
+    border-right: none;
+    border-radius: 15px;
+    padding: 5px 20px;
+    &:hover {
+        color: map-get($map: $palette, $key: 'main')!important;
+        background-color: map-get($map: $palette, $key: 'primary');
+    }
+}
