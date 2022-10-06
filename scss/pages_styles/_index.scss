@@ -13,7 +13,7 @@
                     map-get($map: $palette, $key: 'shadowLight'), 
                     map-get($map: $palette, $key: 'shadowLight'), 
                 ),
-                url('../../assets/img/index/index-image-smash.webp');
+                url('../assets/img/index/index-image-smash.webp');
             background-position: right;
             background-repeat: no-repeat;
             background-size: cover;

@@ -1103,7 +1103,7 @@ a {
 #hero #figure__col .hero__figure {
   height: 100%;
   background-color: rgb(0, 0, 0);
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../assets/img/index/index-image-smash.webp");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/img/index/index-image-smash.webp");
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
