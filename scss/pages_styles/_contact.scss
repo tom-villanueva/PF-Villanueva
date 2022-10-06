@@ -1,0 +1,21 @@
+#contact {
+    label {
+        color: map-get($map: $palette, $key: 'primary');
+    }
+}
+
+.table--borderPrimary {
+    td,th {
+        border: 1px solid map-get($map: $palette, $key: 'primary');
+        text-align: left;
+        padding: 8px;
+    }
+
+    .table__td--bgSecondary {
+        @include tableBg('sm')
+    }
+}
+
+.table--mediumBlue {
+    @include tableBg('md')
+}
