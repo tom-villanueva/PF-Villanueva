@@ -1,2 +1,2 @@
-# coder-dw-entrega2-villanueva
-Pre entrega 2 para el curso de desarrollo web de CoderHouse
+# coder-dw-entrega3-villanueva
+Pre entrega 3 para el curso de desarrollo web de CoderHouse
