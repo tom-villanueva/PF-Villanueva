@@ -41,7 +41,7 @@ a {
     box-shadow: 5px 5px map-get($map: $palette, $key: 'shadowLight');
     border-left: none;
     border-right: none;
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 5px 20px;
     &:hover {
         color: map-get($map: $palette, $key: 'main')!important;

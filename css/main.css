@@ -11066,7 +11066,7 @@ a {
   box-shadow: 5px 5px rgba(0, 0, 0, 0.4);
   border-left: none;
   border-right: none;
-  border-radius: 15px;
+  border-radius: 10px;
   padding: 5px 20px;
 }
 .clickMe-btn:hover {
@@ -11083,7 +11083,10 @@ a {
   font-weight: 400;
 }
 #navigationBar ul li a:hover {
-  font-weight: 600;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom: 2px solid;
+  transform: scale(1.05);
 }
 
 #footer {
@@ -11150,7 +11153,7 @@ a {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   border-bottom: 5px solid;
-  transform: scale(1.2, 1.2);
+  transform: scale(1.15);
   transition: all 0.3s;
 }
 

@@ -8,7 +8,7 @@
                 font-size: map-get($map: $font-sizes, $key: 'sm');
                 font-weight: map-get($map: $font-weights, $key: 'sm');
                 &:hover {
-                    font-weight: map-get($map: $font-weights, $key: 'md');
+                    @include hoverBorderBottom (10px, 2px, 1.05);
                 }
             }
         }

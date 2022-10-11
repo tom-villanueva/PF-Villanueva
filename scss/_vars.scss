@@ -73,3 +73,11 @@ $size-values: (
     color: map-get($map: $palette, $key: 'primary');  
     font-size: map-get($map: $font-sizes, $key: $fontSize);
 }
+
+// Hover border bottom
+@mixin hoverBorderBottom ($radius, $borderThickness, $scale) {
+    border-bottom-left-radius: $radius;
+    border-bottom-right-radius: $radius;
+    border-bottom: $borderThickness solid map-get($map: $palette, $key: 'secondary ');
+    transform: scale($scale);
+}
