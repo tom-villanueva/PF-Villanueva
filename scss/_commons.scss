@@ -48,3 +48,31 @@ a {
         background-color: map-get($map: $palette, $key: 'primary');
     }
 }
+
+.page404 {
+    height: 80vh;
+
+    .page404__background {
+        background-image: url("../assets/img/other/404-not-found.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        .page404__text {
+            @include shadowText(20px);
+            color: map-get($map: $palette, $key: 'primary');
+            font-size: map-get($map: $font-sizes, $key: 'xl');
+    
+            @media (min-width: 280px) and (max-width: 576px) {
+                font-size: map-get($map: $font-sizes, $key: 'lg');
+            }
+    
+            strong {
+                color: map-get($map: $palette, $key: 'secondary');
+            }
+
+            a {  
+                font-size: map-get($map: $font-sizes, $key: 'md');
+            }    
+        }
+    }
+}
